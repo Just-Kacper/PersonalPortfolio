@@ -68,6 +68,24 @@ body {
     flex-direction: column;
 }
 
+.main h4 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.main h4 span {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
 
 
 
