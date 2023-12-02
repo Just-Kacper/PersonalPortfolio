@@ -61,6 +61,7 @@ body {
 
 
 .main {
+    margin-top: 50px;
     height: 640px;
     display: flex;
     justify-content: center;
@@ -86,8 +87,70 @@ body {
     margin-bottom: 5px;
 }
 
+.main img {
+    width: 300px;
+}
 
+.guarantee {
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
 
+.guarantee .item {
+    background: #2E4374;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid #E5C3A6;
+    cursor: pointer; 
+    transition: all 0.3s ease;
+} .guarantee .item:hover {
+    transform: scale(1.05)
+}
+
+.guarantee .item .icon {
+    height: 48px;
+    width: 48px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.guarantee .item .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guarantee .item .info h3 {
+    font-size: 28px;   
+}
+
+.guarantee .item .info p {
+    font-size: 15px; 
+    font-weight: 600;
+}
+
+.guarantee .item i {
+    font-size: 30px;
+}
+
+h5 {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
 
 
 
