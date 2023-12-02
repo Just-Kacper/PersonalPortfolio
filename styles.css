@@ -146,11 +146,84 @@ body {
     font-size: 30px;
 }
 
-h5 {
-    margin-top: 40px;
-    font-size: 50px;
-    text-align: center;
+.seperator {
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    background-color: #2E4374;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 20px;
 }
 
+.about {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px; 
+    padding: 0 50px;
+}
+
+.about .info h3 {
+    font-size: 50px;
+}
+
+.about .info p {
+    font-size: 20px;
+}
+
+.about .info button {
+    margin-top: 20px;
+    font-size: 32px;
+    padding: 12px 60px;
+}
+
+.skills {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+
+}
+
+.skills .left {
+    width: 680px;
+}
+
+.skills .left .info h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.skills .left .info p {
+    font-size: 18px;
+}
+
+.skills .left button {
+    padding: 8px 40px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.right {
+    display: flex;
+    gap: 40px;
+}
+
+.right .item {
+    height: 100px;
+    width: 100px;
+    background: #435585;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+} .right .item:hover {
+    transform: scale(1.2);
+}
+
+.right .item i {
+    font-size: 60px;
+}
 
 
