@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, "sans-serif";
+    scroll-behavior: smooth;
 }
 
 body {
@@ -225,6 +226,63 @@ body {
 .right .item i {
     font-size: 60px;
 }
+
+
+.footer {
+    height: 200px;
+    margin-top: 30px;
+    background: #31304D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .icons a {
+    text-decoration: none;
+    color: #F5E8C7;
+}
+
+.footer .icons .item i {
+    margin-top: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer .icons .item i:hover {
+    transform: scale(1.2);
+}
+
+.footer .sections {
+    display: flex;
+    align-self: center;
+    gap: 40px;
+} 
+.footer .sections a {
+    text-decoration: none;
+    color: #F5E8C7;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.footer .sections p {
+    transition: all 0.2s ease-in-out;
+}
+.footer .sections p:hover {
+    transform: scale(1.5);
+}
+
+
+.footer .text {
+    align-self: flex-end;
+}
+
+
 
 
 /* Extra small devices (phones) */
